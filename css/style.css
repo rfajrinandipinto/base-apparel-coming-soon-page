@@ -133,13 +133,7 @@ header .container img {
   font-size: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 6.5px;
-  }
-}
-
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   html {
     font-size: 7px;
   }
@@ -149,19 +143,19 @@ header .container img {
   html {
     font-size: 8.5px;
   }
-}
+} */
 
 @media (min-width: 1400px) {
   html {
-    font-size: 12px;
+    font-size: 1.3vw;
   }
 }
-
+/* 
 @media (min-width: 2000px) {
   html {
     font-size: 16px;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .big-container .split-1 {
@@ -181,56 +175,54 @@ header .container img {
   }
 
   header .container {
-    padding-block: 7rem;
+    padding-block: 4rem;
   }
 
   header .container img {
-    width: 18rem;
+    width: 9rem;
   }
 
   .bg-primary {
     text-align: left;
-    padding-block: 3rem;
-    padding-inline-end: 3rem;
+    padding-block: 1rem;
+    padding-inline-end: 4rem;
     background: none;
   }
 
   .bg-primary h1 {
-    font-size: 7.7rem;
-    line-height: 8.5rem;
-    letter-spacing: 1.8rem;
-    padding-block: 3rem;
+    font-size: 3.7rem;
+    line-height: 4rem;
   }
 
   .bg-primary p {
-    line-height: 3rem;
-    font-size: 1.7rem;
+    line-height: 1.7rem;
+    font-size: 0.9rem;
   }
 
   .input {
-    margin-block: 4rem;
+    margin-block: 2.5rem;
   }
 
   .email-input {
     border-radius: 5rem;
-    height: 6rem;
-    padding-inline: 3.5rem;
-    font-size: 2.5rem;
+    height: 3.3rem;
+    padding-inline: 2rem;
+    font-size: 1.5rem;
   }
 
   .email-input::placeholder {
-    font-size: 2rem;
+    font-size: 0, 8rem;
     opacity: 0.5;
   }
 
   .btn {
-    width: 11rem;
+    width: 6rem;
     border-radius: 5rem;
   }
 
   .btn i {
     color: hsl(0, 0%, 100%);
-    font-size: 2.5rem;
+    font-size: 1.4rem;
   }
 
   .img-mobile {
